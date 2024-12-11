@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.test1.NoteController"
+      spacing="10" alignment="CENTER" prefWidth="600" prefHeight="400">
+    <DatePicker fx:id="datePicker" onAction="#onDateChange"/>
+    <HBox spacing="10">
+        <TextField fx:id="noteInput" promptText="Введите текст заметки"/>
+        <Button fx:id="addNoteButton" text="Добавить" onAction="#onAddNote"/>
+    </HBox>
+    <ListView fx:id="notesListView"/>
+    <HBox spacing="10">
+        <Button fx:id="deleteNoteButton" text="Удалить" onAction="#onDeleteNote"/>
+        <Button fx:id="clearDayButton" text="Очистить день" onAction="#onClearDay"/>
+    </HBox>
+</VBox>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Main-Class: org.example.test1.MainApp
+Class-Path: javafx.controls.jar javafx-graphics-17.0.6.jar javafx-contro
+ ls-17.0.6.jar javafx.swing.jar javafx.web.jar bootstrapfx-core-0.4.0.ja
+ r javafx-fxml-17.0.6.jar javafx-controls-17.0.6-win.jar javafx.base.jar
+  jackson-databind-2.15.2.jar javafx-swt.jar jackson-core-2.15.2.jar jav
+ afx-fxml-17.0.6-win.jar controlsfx-11.2.1.jar javafx.fxml.jar javafx-gr
+ aphics-17.0.6-win.jar javafx.graphics.jar javafx-swt.jar javafx.web.jar
+  javafx.base.jar javafx.fxml.jar javafx.media.jar javafx.swing.jar java
+ fx.controls.jar javafx.graphics.jar javafx.media.jar javafx-base-17.0.6
+ .jar jackson-annotations-2.15.2.jar javafx-base-17.0.6-win.jar
+
